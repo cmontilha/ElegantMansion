@@ -1,3 +1,18 @@
-*.html linguist-language=HTML
-*.css linguist-language=CSS
-*.js linguist-language=JavaScript
+docs/*.html linguist-language=HTML
+docs/*.css linguist-language=CSS
+docs/*.js linguist-language=JavaScript
+*.iml
+/.vscode/
+/.idea/
+/.idea/*
+.DS_Store
+/build/
+/captures/
+node_modules/
+dist/
+*.min.js
+*.min.css
+*.map
+.env
+package-lock.json
+yarn.lock
