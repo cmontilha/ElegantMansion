@@ -1,3 +1,3 @@
-main/*.html linguist-language=HTML
-main/*.css linguist-language=CSS
-main/*.js linguist-language=JavaScript
+docs/*.html linguist-language=HTML
+docs/*.css linguist-language=CSS
+docs/*.js linguist-language=JavaScript
