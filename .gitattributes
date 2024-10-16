@@ -1,4 +1,5 @@
-* linguist-vendored
-docs/*.html linguist-language=HTML=true
-docs/*.css linguist-language=CSS=true
-docs/*.js linguist-language=JavaScript=true
+assets/js/terceiros/* linguist-vendored
+jquery.js linguist-vendored=false
+docs/*.html linguist-language=HTML
+docs/*.css linguist-language=CSS
+docs/*.js linguist-language=JavaScript
