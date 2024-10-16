@@ -1,3 +1,4 @@
-docs/*.html linguist-language=HTML
-docs/*.css linguist-language=CSS
-docs/*.js linguist-language=JavaScript
+* linguist-vendored
+docs/*.html linguist-language=HTML=true
+docs/*.css linguist-language=CSS=true
+docs/*.js linguist-language=JavaScript=true
