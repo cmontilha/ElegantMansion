@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Elegant Mansion</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Imóvel Luxuoso</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#galeria">Video</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#sobre">Detalhes</a></li>
+                <li><a href="#sobre">Sobre o Imóvel</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="intro" class="intro">
+        <h2>Bem-vindo ao imóvel dos seus sonhos</h2>
+        <p>Explore uma propriedade sofisticada e única, projetada com acabamento de alto padrão e integração moderna que oferece luxo e elegância em cada detalhe.</p>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2 class="video-title">Acompanhe o Imóvel em Vídeo</h2>
+        <video controls class="video">
+            <source src="images/video.webm" type="video/webm">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria-categorias">
+            <div class="categoria">
+                <h3>Diurno</h3>
+                <div class="galeria-grid">
+                    <div>
+                        <img src="images/frenteimovel01.png" alt="Fachada do imóvel" data-info="Uma bela fachada que demonstra o padrão elevado de design e construção deste imóvel.">
+                    </div>
+                    <div>
+                        <img src="images/frenteimovel02.png" alt="Fachada do imóvel - outra vista" data-info="Outra vista da fachada que destaca os detalhes arquitetônicos.">
+                    </div>
+                    <div>
+                        <img src="images/noite04.png" alt="Vista horizontal da fachada" data-info="Uma vista horizontal mostrando a integração da construção com a natureza ao redor.">
+                    </div>
+                    <div>
+                        <img src="images/frenteimovel03horizontal.png" alt="Área externa do imóvel" data-info="Área externa integrada com a natureza, oferecendo um ambiente de tranquilidade e sofisticação.">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="categoria-button" onclick="openSidebar('Diurno', 'Veja mais fotos e detalhes sobre o imóvel durante o dia.')">Ver mais</button>
+                </div>
+            </div>
+            <div class="categoria">
+                <h3>Noturno</h3>
+                <div class="galeria-grid">
+                    <div>
+                        <img src="images/piscina.png" alt="Piscina do imóvel" data-info="Área externa com piscina e espaço para relaxamento ao redor.">
+                    </div>
+                    <div>
+                        <img src="images/lavabo.png" alt="Lavabo" data-info="Lavabo com acabamentos refinados e iluminação elegante.">
+                    </div>
+                    <div>
+                        <img src="images/externa.png" alt="Fachada do imóvel à noite" data-info="Fachada do imóvel com iluminação noturna destacando seus acabamentos refinados.">
+                    </div>
+                    <div>
+                        <img src="images/manha04.png" alt="Vista noturna do imóvel" data-info="Vista noturna que realça a arquitetura e os detalhes do design do imóvel.">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="categoria-button" onclick="openSidebar('Noturno', 'Veja mais fotos e detalhes sobre o imóvel à noite.')">Ver mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="sidebar" class="sidebar" style="display: none;">
+        <button onclick="closeSidebar()">Fechar</button>
+        <h2 id="sidebar-title"></h2>
+        <p id="sidebar-content"></p>
+    </div>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre o Imóvel</h2>
+        <p>Esta é uma construção nova de alto padrão, que combina requinte e sofisticação em cada detalhe. O imóvel conta com uma área de terreno de 659,23m² e uma área construída privativa de 405,57m², com uma fachada de 20 metros voltada diretamente para uma área de reserva natural preservada, garantindo uma vista permanente e tranquilidade para o futuro morador.</p>
+    </section>
+    
+    <section id="area-externa" class="area-externa">
+        <h2>Área Externa – Piscina e Fire Place</h2>
+        <p>O projeto arquitetônico em formato “L” foi cuidadosamente pensado para integrar a área de lazer com a natureza. A área externa possui uma piscina cercada por uma área privativa ensolarada de aproximadamente 72m², equipada com espreguiçadeiras e balanço tipo gota da marca Casa das Fibras, ideal para apreciar o pôr do sol ou desfrutar de momentos relaxantes ao lado do Fire Place a gás da marca FOGO & ART.</p>
+    </section>
+    
+    <section id="living" class="living">
+        <h2>Living, Sala de Jantar e Cozinha</h2>
+        <p>No interior, o imóvel oferece um amplo living com pé-direito duplo, proporcionando uma iluminação natural abundante. O ambiente conta com uma lareira a gás embutida em pedra São Gabriel Preto Escovado e ar-condicionado LG de 32.000 BTUs. A sala de estar é mobiliada com um sofá design para 10 pessoas da marca Galpão Decora, mesa de jantar com tampo de vidro espelhado preto e diversas peças decorativas que fazem parte do valor do imóvel. A cozinha integrada ao living é planejada no estilo provençal com armários Todeschini e ilha central em granito Preto Via Láctea polido, além de eletrodomésticos modernos, como geladeira Samsung e cooktop Electrolux.</p>
+    </section>
+    
+    <section id="gourmet" class="gourmet">
+        <h2>Espaço Gourmet</h2>
+        <p>O espaço gourmet é completo, com armários planejados Todeschini, kit churrasqueira da marca Polytec, forno de pizza, coifa, e ilha em granito São Gabriel. O ambiente é perfeito para receber amigos e familiares, oferecendo conforto e elegância com móveis rústicos, prateleiras decorativas e uma Smart TV de 55 polegadas.</p>
+    </section>
+    
+    <section id="suites" class="suites">
+        <h2>Suítes e Banheiros</h2>
+        <p>O imóvel dispõe de quatro suítes, sendo duas com closets. Cada suíte foi projetada para oferecer o máximo de conforto, com camas box da marca KingStar, ar-condicionado Midea e banheiros com acabamentos sofisticados em pedra natural e louças Deca. O banheiro da suíte master conta com uma banheira de imersão, secador de toalhas e bancada em Prime Areia.</p>
+    </section>
+    
+    <section id="condominio" class="condominio">
+        <h2>Sobre o Condomínio</h2>
+        <p>Localizado no Condomínio Reserva Santa Maria, o imóvel oferece tranquilidade e uma infraestrutura de lazer completa, com academia, ciclovia, três piscinas, quadras de tênis e futebol, playgrounds, quiosques com churrasqueira e trilhas. Segurança motorizada 24 horas e acesso fácil às rodovias Raposo Tavares e Castelo Branco, estando a apenas 15 minutos do Shopping Iguatemi Alphaville.</p>
+    </section>
+    
+    <section id="valor" class="valor">
+        <h2>Valor</h2>
+        <p>R$ 4.350.000,00. Imóvel apto a financiamento bancário e o proprietário estuda permuta por terreno na região.</p>
+        <p>Agende sua visita e descubra um imóvel único, pronto para morar, com integração total entre os ambientes internos e externos.</p>
+    </section>
+
+    <!-- Rodapé principal -->
+    <footer id="contato" class="footer">
+        <h2>Contato</h2>
+        <p><strong>Envie uma mensagem para nosso Instagram para agendar sua visita: <a href="https://instagram.com/sm_building_houses/" target="_blank" style="color: #00bcd4;">@sm_building_houses</a></strong></p>
+        <br><br>
+        <p>Entre em contato para mais informações sobre esta propriedade única.</p>
+        <p>Preencha seus dados abaixo.</p>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+    <!-- Nota de rodapé com a footnote -->
+    <footer class="footnote">
+        <p>¹ Todas as informações de valor e características do imóvel estão sujeitas a alterações sem aviso prévio.</p>
+        <p>² Todas as imagens usadas neste site são de propriedade dos respectivos autores e estão protegidas por direitos autorais. Qualquer uso não autorizado das imagens está estritamente proibido.</p>
+    </footer>
+</body>
+<script>
+    function openSidebar(title, content) {
+        document.getElementById('sidebar-title').textContent = title;
+        document.getElementById('sidebar-content').textContent = content;
+        document.getElementById('sidebar').classList.add('open');
+        document.getElementById('sidebar').style.display = 'block';
+    }
+
+    function closeSidebar() {
+        document.getElementById('sidebar').classList.remove('open');
+        document.getElementById('sidebar').style.display = 'none';
+    }
+</script>
+</html>

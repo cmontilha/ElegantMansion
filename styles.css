@@ -1,0 +1,372 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('./images/fundo01.png'); /* Verifique o caminho se a imagem estiver em uma pasta diferente */
+    background-size: cover;
+    background-position: center;
+    background-color: #111; 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 2.8em;
+    position: relative;
+    z-index: 1;
+}
+
+.nav {
+    position: relative;
+    z-index: 1;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.nav a:hover {
+    color: #ffa726;
+
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.galeria {
+    padding: 5px;
+    background-color: #333;
+    position: relative;
+    text-align: center;
+}
+
+.galeria-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.video-title {
+    text-align: center;
+    font-size: 1.5em; /* Reduzido para deixar mais discreto */
+    color: #e0e0e0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.categoria {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.categoria h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+    text-align: left;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.galeria .categoria-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto px;
+}
+
+.galeria .categoria-button:hover {
+    background-color: #ffa726;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: #222;
+    color: #e0e0e0;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sidebar button {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sidebar button:hover {
+    background-color: #ffa726;
+}
+
+.galeria h2 {
+    font-size: 2.5em;
+    margin-top: 100px; 
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 1250px; /* Ajuste o valor conforme a largura das imagens */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 50px 10px; /* Ajuste o padding para uma boa margem nas laterais */
+}
+
+.sobre, .area-externa, .living, .gourmet, .suites, .condominio, .valor {
+    padding: 50px 10px;
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: left; /* Manter o alinhamento do texto à esquerda */
+}
+
+
+.sobre h2, .area-externa h2, .living h2, .gourmet h2, .suites h2, .condominio h2, .valor h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sobre p, .area-externa p, .living p, .gourmet p, .suites p, .condominio p, .valor p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.detalhes {
+    padding: 50px;
+}
+
+.detalhes h2 {
+    margin-bottom: 20px;
+}
+
+.detalhes p {
+    line-height: 1.6;
+}
+
+.localizacao {
+    padding: 50px;
+    background-color: #333;
+}
+
+.footer {
+    background-color: #111;
+    padding: 80px; /* Aumenta o padding para deixar a seção maior */
+    text-align: center;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Aumenta o espaço entre os campos do formulário */
+}
+
+.footer input, .footer textarea {
+    padding: 15px; /* Aumenta o padding nos campos de entrada */
+    width: 90%; /* Aumenta a largura dos campos */
+    max-width: 600px; /* Aumenta a largura máxima dos campos */
+    border: none;
+    border-radius: 5px;
+}
+
+.footer h2 {
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    color: #fff; /* Garante que a cor fique consistente com o design */
+    margin-bottom: 20px; /* Adiciona um pouco de espaçamento abaixo do título */
+}
+
+.footer button {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    padding: 20px; /* Aumenta o tamanho do botão */
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer button:hover {
+    background-color: #ffa726;
+}
+
+
+/* Estilos para a seção Área Externa */
+.area-externa {
+    padding: 50px;
+    background-color: #333;
+}
+
+.area-externa h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.area-externa p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para a seção Living, Sala de Jantar e Cozinha */
+.living {
+    padding: 50px;
+    background-color: #222;
+}
+
+.living h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.living p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para a seção Espaço Gourmet */
+.gourmet {
+    padding: 50px;
+    background-color: #333;
+}
+
+.gourmet h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.gourmet p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para a seção Suítes e Banheiros */
+.suites {
+    padding: 50px;
+    background-color: #222;
+}
+
+.suites h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.suites p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para a seção Sobre o Condomínio */
+.condominio {
+    padding: 50px;
+    background-color: #333;
+}
+
+.condominio h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.condominio p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para a seção Valor */
+.valor {
+    padding: 50px;
+    background-color: #222;
+}
+
+.valor h2 {
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.valor p {
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Estilos para o footnote */
+.footnote {
+    text-align: center;
+    background-color: #111;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.footnote p {
+    margin: 0;
+    padding: 0;
+}
