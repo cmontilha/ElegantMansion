@@ -14,14 +14,15 @@ Here's the website interface:
 
 Explore both **daytime** and **nighttime** views of the property in our photo gallery.
 
-## 📝 Project Details
+---
 
-- **Property Type**: Luxury Mansion
-- **Location**: Exclusive, private reserve neighborhood
-- **Main Features**:
-  - Spacious 405.57m² of constructed area
-  - 20-meter frontage facing a preserved natural reserve
-  - High-end finishes including marble and luxury appliances
+## 🌟 Website Features
+- **Responsive Design**: Optimized for both desktop and mobile devices, ensuring a smooth user experience on all screen sizes.
+- **Interactive Gallery**: High-quality images with a lightbox effect for a detailed view of each room and exterior.
+- **Custom Animations**: Subtle animations to enhance the visual appeal and user interaction, including fade-in effects and hover transitions.
+- **Contact Form**: A fully functional contact form for potential buyers to schedule a visit or request more information.
+- **SEO Optimized**: Structured content and meta tags designed to improve visibility on search engines.
+- **Elegant UI/UX**: A clean, minimalist interface with a focus on ease of navigation and a luxurious feel, reflecting the high-end nature of the property.
 
 ---
 
@@ -35,9 +36,9 @@ For more details and to explore the property, [visit our website](https://cmonti
 
 This project uses the following technologies:
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+- **HTML5**: For structured and semantic content.
+- **CSS3**: Custom styles, grid layouts, and media queries for responsive design.
+- **JavaScript**: Interactive elements and dynamic content handling.
 
 ---
 
