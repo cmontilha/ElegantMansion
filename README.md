@@ -6,7 +6,7 @@ Welcome to **Elegant Mansion**, a sophisticated and unique luxury property desig
 
 Here's the website interface:
 
-![Elegant Mansion - Visual Overview](screen1.png)
+![Elegant Mansion - Visual Overview](screen01.png)
 
 ---
 
