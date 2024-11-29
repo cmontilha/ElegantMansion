@@ -10,6 +10,12 @@ Here's the website interface:
 
 ---
 
+## 🌐 Visit Our Website
+
+For more details and to explore the property, [visit our website](https://cmontilha.github.io/ElegantMansion/).
+
+---
+
 ## 📸 Gallery of Photos
 
 Explore both **daytime** and **nighttime** views of the property in our photo gallery.
@@ -23,12 +29,6 @@ Explore both **daytime** and **nighttime** views of the property in our photo ga
 - **Contact Form**: A fully functional contact form for potential buyers to schedule a visit or request more information.
 - **SEO Optimized**: Structured content and meta tags designed to improve visibility on search engines.
 - **Elegant UI/UX**: A clean, minimalist interface with a focus on ease of navigation and a luxurious feel, reflecting the high-end nature of the property.
-
----
-
-## 🌐 Visit Our Website
-
-For more details and to explore the property, [visit our website](https://cmontilha.github.io/ElegantMansion/).
 
 ---
 
