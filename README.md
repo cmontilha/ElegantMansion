@@ -12,7 +12,7 @@ Here's the website interface:
 
 ## 🌐 Visit Our Website
 
-For more details and to explore the property, [visit our website](https://cmontilha.github.io/ElegantMansion/).
+For more details and to explore the website, [Click Here](https://cmontilha.github.io/ElegantMansion/).
 
 ---
 
