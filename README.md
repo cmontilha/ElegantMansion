@@ -2,7 +2,7 @@
 
 Welcome to **Elegant Mansion**, a sophisticated and unique luxury property designed with the highest standards of quality, blending modern architecture with the beauty of nature. This project showcases a modern, high-end mansion featuring the finest materials.
 
-## 🎨 Visual Overview
+## Visual Overview
 
 Here's the website interface:
 
@@ -32,7 +32,7 @@ Explore both **daytime** and **nighttime** views of the property in our photo ga
 
 ---
 
-## 🏗️ Technology Stack
+## Technology Stack
 
 This project uses the following technologies:
 
